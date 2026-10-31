@@ -4,6 +4,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "loadAssets", "dir_874ccee1f935d268b8672d48448b480b.html", "dir_874ccee1f935d268b8672d48448b480b" ],
     [ "emulator.c", "emulator_8c.html", "emulator_8c" ],
     [ "emulator_error.c", "emulator__error_8c.html", "emulator__error_8c" ],
+    [ "emulator_flightpath.c", "emulator__flightpath_8c.html", "emulator__flightpath_8c" ],
     [ "emulator_gpio.c", "emulator__gpio_8c.html", null ],
     [ "emulator_ground_station.c", "emulator__ground__station_8c.html", "emulator__ground__station_8c" ],
     [ "emulator_gui.c", "emulator__gui_8c.html", "emulator__gui_8c" ],
