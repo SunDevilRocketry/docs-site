@@ -1,0 +1,3 @@
+[submodule "document-control"]
+	path = document-control
+	url = https://github.com/SunDevilRocketry/document-control
