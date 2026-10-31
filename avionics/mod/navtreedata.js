@@ -35,16 +35,14 @@ var NAVTREE =
           [ "2.2. Debug", "md___reqs_2srd.html#autotoc_md6", null ],
           [ "2.3. Error", "md___reqs_2srd.html#autotoc_md7", null ],
           [ "2.4. Math", "md___reqs_2srd.html#autotoc_md8", null ],
-          [ "2.5. Telemetry", "md___reqs_2srd.html#autotoc_md9", null ],
-          [ "2.6. Nav", "md___reqs_2srd.html#autotoc_md10", [
-            [ "2.6.1. Mahony", "md___reqs_2srd.html#autotoc_md11", null ],
-            [ "2.6.2. ISA", "md___reqs_2srd.html#autotoc_md12", null ],
-            [ "2.6.3. POF", "md___reqs_2srd.html#autotoc_md13", null ]
-          ] ]
+          [ "2.5. Sensor", "md___reqs_2srd.html#autotoc_md9", null ],
+          [ "2.6. Telemetry", "md___reqs_2srd.html#autotoc_md10", null ],
+          [ "2.7. Mahony", "md___reqs_2srd.html#autotoc_md11", null ],
+          [ "2.8. ISA", "md___reqs_2srd.html#autotoc_md12", null ]
         ] ]
       ] ]
     ] ],
-    [ "mod", "md__r_e_a_d_m_e.html", null ],
+    [ "mod", "md_README.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -72,6 +70,5 @@ var NAVTREEINDEX =
 "annotated.html"
 ];
 
-const SYNCONMSG = 'click to disable panel synchronization';
-const SYNCOFFMSG = 'click to enable panel synchronization';
-const LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

@@ -1,7 +1,6 @@
 var debug__sdr_8h =
 [
-    [ "_DEBUG_HANDLE", "struct___d_e_b_u_g___h_a_n_d_l_e.html", null ],
-    [ "_SYSTEM_TIME", "struct___s_y_s_t_e_m___t_i_m_e.html", null ],
+    [ "_DEBUG_HANDLE", "struct__DEBUG__HANDLE.html", null ],
     [ "debug_assert", "debug__sdr_8h.html#a9994f51a081c551d09c5048da515d9ce", null ],
     [ "debug_ignore_emulator_warnings_start", "debug__sdr_8h.html#a212425c5fb8217cc5d5c79e9075de5db", null ],
     [ "debug_ignore_emulator_warnings_stop", "debug__sdr_8h.html#a765f2b931ae6e333815002af5aa39ecd", null ],

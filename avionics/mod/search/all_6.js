@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['_5fdebug_5fhandle_0',['_DEBUG_HANDLE',['../struct___d_e_b_u_g___h_a_n_d_l_e.html',1,'']]],
-  ['_5ferror_5fcallback_1',['_ERROR_CALLBACK',['../struct___e_r_r_o_r___c_a_l_l_b_a_c_k.html',1,'']]],
-  ['_5fnav_5fbaro_5fema_2',['_nav_baro_ema',['../nav__prv_8h.html#abbb75b0badf51e62ff514d489b629919',1,'_nav_baro_ema(NAV_PRIVATE_STATE *prv_state, NAV_SENSORS *sensors):&#160;nav_utl.c'],['../nav__utl_8c.html#abbb75b0badf51e62ff514d489b629919',1,'_nav_baro_ema(NAV_PRIVATE_STATE *prv_state, NAV_SENSORS *sensors):&#160;nav_utl.c']]],
-  ['_5fnav_5fbaro_5ffilter_5fstate_3',['_NAV_BARO_FILTER_STATE',['../struct___n_a_v___b_a_r_o___f_i_l_t_e_r___s_t_a_t_e.html',1,'']]],
-  ['_5fnav_5fconfig_4',['_NAV_CONFIG',['../struct___n_a_v___c_o_n_f_i_g.html',1,'']]],
-  ['_5fnav_5fimu_5fvelo_5',['_nav_imu_velo',['../nav__prv_8h.html#ab30137749e313d3d7134b9a2fc949a71',1,'_nav_imu_velo(NAV_PRIVATE_STATE *prv_state, const NAV_SENSORS *sensors, NAV_OUTPUTS *outputs, float tdelta):&#160;nav_utl.c'],['../nav__utl_8c.html#ab30137749e313d3d7134b9a2fc949a71',1,'_nav_imu_velo(NAV_PRIVATE_STATE *prv_state, const NAV_SENSORS *sensors, NAV_OUTPUTS *outputs, float tdelta):&#160;nav_utl.c']]],
-  ['_5fnav_5fisa_5fget_5faltitude_5fqfe_6',['_nav_isa_get_altitude_qfe',['../nav__isa_8c.html#a8e08c61fb762e01b1b000b4f82985143',1,'_nav_isa_get_altitude_qfe(float curr_pres, float curr_temp, float reference_pres, float reference_temp):&#160;nav_isa.c'],['../nav__prv_8h.html#a8e08c61fb762e01b1b000b4f82985143',1,'_nav_isa_get_altitude_qfe(float curr_pres, float curr_temp, float reference_pres, float reference_temp):&#160;nav_isa.c']]],
-  ['_5fnav_5fisa_5fget_5faltitude_5fqnh_7',['_nav_isa_get_altitude_qnh',['../nav__isa_8c.html#ab5be3c3aca18087ece315c90f5465e31',1,'_nav_isa_get_altitude_qnh(float baro_pres, float baro_temp):&#160;nav_isa.c'],['../nav__prv_8h.html#ab5be3c3aca18087ece315c90f5465e31',1,'_nav_isa_get_altitude_qnh(float baro_pres, float baro_temp):&#160;nav_isa.c']]],
-  ['_5fnav_5fisa_5fget_5ftemp_8',['_nav_isa_get_temp',['../nav__isa_8c.html#ab1ec7eafb15edc257148cab962a841cc',1,'_nav_isa_get_temp(float baro_pres):&#160;nav_isa.c'],['../nav__prv_8h.html#ab1ec7eafb15edc257148cab962a841cc',1,'_nav_isa_get_temp(float baro_pres):&#160;nav_isa.c']]],
-  ['_5fnav_5fmahony_5ffilter_9',['_NAV_MAHONY_FILTER',['../struct___n_a_v___m_a_h_o_n_y___f_i_l_t_e_r.html',1,'']]],
-  ['_5fnav_5fmahony_5finit_10',['_nav_mahony_init',['../nav__mahony_8c.html#acf4765565e1b0d744c9e2770947b6bde',1,'_nav_mahony_init(NAV_PRIVATE_STATE *prv_state):&#160;nav_mahony.c'],['../nav__prv_8h.html#aa9c29e9d61a73e96892828860c5555d6',1,'_nav_mahony_init(NAV_PRIVATE_STATE *state):&#160;nav_mahony.c']]],
-  ['_5fnav_5fmahony_5fupdate_5fgyro_11',['_nav_mahony_update_gyro',['../nav__mahony_8c.html#a9daf490550956744313d75d4a6157e25',1,'_nav_mahony_update_gyro(NAV_MAHONY_FILTER *filter, VECTOR_3F gyro_body_rad_s, float delta_time_s):&#160;nav_mahony.c'],['../nav__prv_8h.html#a9daf490550956744313d75d4a6157e25',1,'_nav_mahony_update_gyro(NAV_MAHONY_FILTER *filter, VECTOR_3F gyro_body_rad_s, float delta_time_s):&#160;nav_mahony.c']]],
-  ['_5fnav_5fmahony_5fupdate_5fimu_12',['_nav_mahony_update_imu',['../nav__mahony_8c.html#a46cfc7af44760d4abdc6ca19fae9f760',1,'_nav_mahony_update_imu(NAV_MAHONY_FILTER *filter, VECTOR_3F gyro_body_rad_s, VECTOR_3F accel_body, float delta_time_s, bool use_accel):&#160;nav_mahony.c'],['../nav__prv_8h.html#a46cfc7af44760d4abdc6ca19fae9f760',1,'_nav_mahony_update_imu(NAV_MAHONY_FILTER *filter, VECTOR_3F gyro_body_rad_s, VECTOR_3F accel_body, float delta_time_s, bool use_accel):&#160;nav_mahony.c']]],
-  ['_5fnav_5foutputs_13',['_NAV_OUTPUTS',['../struct___n_a_v___o_u_t_p_u_t_s.html',1,'']]],
-  ['_5fnav_5fpof_14',['_NAV_POF',['../nav_8h.html#a80a04a0a90745e68438d2595a04763d5',1,'nav.h']]],
-  ['_5fnav_5fpof_5finit_15',['_nav_pof_init',['../nav__pof_8c.html#a16b1f8abe1e8b4b58bae40dc451621d6',1,'_nav_pof_init(NAV_PRIVATE_STATE *prv_state):&#160;nav_pof.c'],['../nav__prv_8h.html#a16b1f8abe1e8b4b58bae40dc451621d6',1,'_nav_pof_init(NAV_PRIVATE_STATE *prv_state):&#160;nav_pof.c']]],
-  ['_5fnav_5fpof_5fstate_16',['_NAV_POF_STATE',['../struct___n_a_v___p_o_f___s_t_a_t_e.html',1,'']]],
-  ['_5fnav_5fpof_5fupdate_17',['_nav_pof_update',['../nav__pof_8c.html#a3abb51ad205b0eac4fc7b3a1f61b8aed',1,'_nav_pof_update(NAV_PRIVATE_STATE *prv_state, const NAV_SENSORS *sensors, NAV_OUTPUTS *outputs):&#160;nav_pof.c'],['../nav__prv_8h.html#a3abb51ad205b0eac4fc7b3a1f61b8aed',1,'_nav_pof_update(NAV_PRIVATE_STATE *prv_state, const NAV_SENSORS *sensors, NAV_OUTPUTS *outputs):&#160;nav_pof.c']]],
-  ['_5fnav_5fposn_18',['_NAV_POSN',['../struct___n_a_v___p_o_s_n.html',1,'']]],
-  ['_5fnav_5fprivate_5fstate_19',['_NAV_PRIVATE_STATE',['../struct___n_a_v___p_r_i_v_a_t_e___s_t_a_t_e.html',1,'']]],
-  ['_5fnav_5fpublic_5fstate_20',['_NAV_PUBLIC_STATE',['../struct___n_a_v___p_u_b_l_i_c___s_t_a_t_e.html',1,'']]],
-  ['_5fnav_5fquat_5fgrav_5fattitude_21',['_nav_quat_grav_attitude',['../nav__prv_8h.html#a6e1a485ae1ba4496e828ffd0183a6dae',1,'_nav_quat_grav_attitude(QUAT attitude, VECTOR_3F accel):&#160;nav_utl.c'],['../nav__utl_8c.html#a6e1a485ae1ba4496e828ffd0183a6dae',1,'_nav_quat_grav_attitude(QUAT attitude, VECTOR_3F accel):&#160;nav_utl.c']]],
-  ['_5fnav_5fquat_5fto_5fyaw_22',['_nav_quat_to_yaw',['../nav__prv_8h.html#ae28fda22dd2f13a8a67376695c159aa6',1,'_nav_quat_to_yaw(QUAT q):&#160;nav_utl.c'],['../nav__utl_8c.html#ae28fda22dd2f13a8a67376695c159aa6',1,'_nav_quat_to_yaw(QUAT q):&#160;nav_utl.c']]],
-  ['_5fnav_5freset_5fvelo_23',['_nav_reset_velo',['../nav__prv_8h.html#aacfa05cd3456044f6cbf0573557d448b',1,'_nav_reset_velo(NAV_PRIVATE_STATE *prv_state):&#160;nav_utl.c'],['../nav__utl_8c.html#aacfa05cd3456044f6cbf0573557d448b',1,'_nav_reset_velo(NAV_PRIVATE_STATE *prv_state):&#160;nav_utl.c']]],
-  ['_5fnav_5fsensors_24',['_NAV_SENSORS',['../struct___n_a_v___s_e_n_s_o_r_s.html',1,'']]],
-  ['_5fquat_25',['_QUAT',['../struct___q_u_a_t.html',1,'']]],
-  ['_5fsystem_5ftime_26',['_SYSTEM_TIME',['../struct___s_y_s_t_e_m___t_i_m_e.html',1,'']]],
-  ['_5fvector_5f3f_27',['_VECTOR_3F',['../struct___v_e_c_t_o_r__3_f.html',1,'']]]
+  ['7_20mahony_0',['2.7. Mahony',['../md___reqs_2srd.html#autotoc_md11',1,'']]]
 ];

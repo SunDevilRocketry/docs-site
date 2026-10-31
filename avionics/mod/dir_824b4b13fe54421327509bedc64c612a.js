@@ -1,4 +1,0 @@
-var dir_824b4b13fe54421327509bedc64c612a =
-[
-    [ "mock", "dir_245970333c7f7ff255488f17567dc50f.html", "dir_245970333c7f7ff255488f17567dc50f" ]
-];

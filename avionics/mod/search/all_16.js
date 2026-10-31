@@ -1,4 +1,25 @@
 var searchData=
 [
-  ['util_5fset_5fbit_0',['util_set_bit',['../math__sdr_8h.html#aa02f0a8aadcdc766f87a7b6d72a050d9',1,'math_sdr.h']]]
+  ['safety_20critical_0',['QA level: Safety Critical',['../md___reqs_2srd.html#autotoc_md1',1,'']]],
+  ['sdr_20mod_20library_20software_20requirements_20document_1',['SDR &quot;mod&quot; Library Software Requirements Document',['../md___reqs_2srd.html#autotoc_md0',1,'']]],
+  ['sensor_2',['2.5. Sensor',['../md___reqs_2srd.html#autotoc_md9',1,'']]],
+  ['sensor_2ec_3',['sensor.c',['../sensor_8c.html',1,'']]],
+  ['sensor_2eh_4',['sensor.h',['../sensor_8h.html',1,'']]],
+  ['sensor_5facc_5fconv_5',['sensor_acc_conv',['../sensor_8c.html#a2b96cc5ba0272005c5d3d0de678877ab',1,'sensor_acc_conv(int16_t readout):&#160;sensor.c'],['../sensor_8h.html#a2b96cc5ba0272005c5d3d0de678877ab',1,'sensor_acc_conv(int16_t readout):&#160;sensor.c']]],
+  ['sensor_5faxis_5fremap_6',['sensor_axis_remap',['../sensor_8c.html#a1f9c07e49babb5921d1281fce9e46b85',1,'sensor_axis_remap(float *x, float *y, float *z):&#160;sensor.c'],['../sensor_8h.html#a1f9c07e49babb5921d1281fce9e46b85',1,'sensor_axis_remap(float *x, float *y, float *z):&#160;sensor.c']]],
+  ['sensor_5fbody_5fstate_7',['sensor_body_state',['../sensor_8c.html#a2365fb08537fa2ed087debdc359e1f2d',1,'sensor_body_state(const IMU_CONVERTED *imu_converted, STATE_ESTIMATION *state_estimate):&#160;sensor.c'],['../sensor_8h.html#a2365fb08537fa2ed087debdc359e1f2d',1,'sensor_body_state(const IMU_CONVERTED *imu_converted, STATE_ESTIMATION *state_estimate):&#160;sensor.c']]],
+  ['sensor_5fcmd_5fexecute_8',['sensor_cmd_execute',['../sensor_8c.html#adbd60b174bbb4f0abfabc4e0c3ce8287',1,'sensor_cmd_execute(uint8_t subcommand):&#160;sensor.c'],['../sensor_8h.html#adbd60b174bbb4f0abfabc4e0c3ce8287',1,'sensor_cmd_execute(uint8_t subcommand):&#160;sensor.c']]],
+  ['sensor_5fconv_5fimu_9',['sensor_conv_imu',['../sensor_8c.html#a0994f11d22d109e1679edf1a73112aea',1,'sensor_conv_imu(IMU_CONVERTED *imu_converted, IMU_RAW *imu_raw):&#160;sensor.c'],['../sensor_8h.html#a0994f11d22d109e1679edf1a73112aea',1,'sensor_conv_imu(IMU_CONVERTED *imu_converted, IMU_RAW *imu_raw):&#160;sensor.c']]],
+  ['sensor_5fdata_10',['SENSOR_DATA',['../structSENSOR__DATA.html',1,'']]],
+  ['sensor_5fdump_11',['sensor_dump',['../sensor_8c.html#ac460a71312b53d6f37e22585ad4fa0c6',1,'sensor_dump(SENSOR_DATA *sensor_data_ptr):&#160;sensor.c'],['../sensor_8h.html#ac460a71312b53d6f37e22585ad4fa0c6',1,'sensor_dump(SENSOR_DATA *sensor_data_ptr):&#160;sensor.c']]],
+  ['sensor_5fget_5fmount_5forientation_12',['sensor_get_mount_orientation',['../sensor_8h.html#a0d1e04de1d52d165dcba770e53245003',1,'sensor_get_mount_orientation(void):&#160;sensor.c'],['../sensor_8c.html#a0d1e04de1d52d165dcba770e53245003',1,'sensor_get_mount_orientation(void):&#160;sensor.c']]],
+  ['sensor_5fgyro_5fconv_13',['sensor_gyro_conv',['../sensor_8h.html#adf63f872805f79ab6f4e17d58f3ed0d2',1,'sensor_gyro_conv(int16_t readout):&#160;sensor.c'],['../sensor_8c.html#adf63f872805f79ab6f4e17d58f3ed0d2',1,'sensor_gyro_conv(int16_t readout):&#160;sensor.c']]],
+  ['sensor_5fimu_5fvelo_14',['sensor_imu_velo',['../sensor_8c.html#a999c0a7193fa0a335b10a9550fbf2745',1,'sensor_imu_velo(const IMU_CONVERTED *imu_converted, STATE_ESTIMATION *state_estimate):&#160;sensor.c'],['../sensor_8h.html#a999c0a7193fa0a335b10a9550fbf2745',1,'sensor_imu_velo(const IMU_CONVERTED *imu_converted, STATE_ESTIMATION *state_estimate):&#160;sensor.c']]],
+  ['sensor_5finit_15',['sensor_init',['../sensor_8c.html#affcbe07c536abc72697c47a6a5e26384',1,'sensor_init(PRESET_DATA *preset_data):&#160;sensor.c'],['../sensor_8h.html#affcbe07c536abc72697c47a6a5e26384',1,'sensor_init(PRESET_DATA *preset_data):&#160;sensor.c']]],
+  ['sensor_5freset_5fvelo_16',['sensor_reset_velo',['../sensor_8c.html#a166e351e37025771d6ac645f8b091fb0',1,'sensor_reset_velo(void):&#160;sensor.c'],['../sensor_8h.html#a166e351e37025771d6ac645f8b091fb0',1,'sensor_reset_velo(void):&#160;sensor.c']]],
+  ['sensor_5fset_5fmount_5forientation_17',['sensor_set_mount_orientation',['../sensor_8c.html#a48fa4203a7d8b4b628e904228e70604d',1,'sensor_set_mount_orientation(MOUNT_ORIENTATION orientation):&#160;sensor.c'],['../sensor_8h.html#a48fa4203a7d8b4b628e904228e70604d',1,'sensor_set_mount_orientation(MOUNT_ORIENTATION orientation):&#160;sensor.c']]],
+  ['servo_5fpreset_5fopaque_18',['SERVO_PRESET_OPAQUE',['../structSERVO__PRESET__OPAQUE.html',1,'']]],
+  ['software_20requirements_20document_19',['SDR &quot;mod&quot; Library Software Requirements Document',['../md___reqs_2srd.html#autotoc_md0',1,'']]],
+  ['srd_20',['srd',['../md___reqs_2srd.html',1,'']]],
+  ['structural_21',['1. Structural',['../md___reqs_2srd.html#autotoc_md3',1,'']]]
 ];

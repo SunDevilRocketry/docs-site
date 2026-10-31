@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['imu_5foffset_5fopaque_0',['IMU_OFFSET_OPAQUE',['../struct_i_m_u___o_f_f_s_e_t___o_p_a_q_u_e.html',1,'']]],
-  ['integral_5ferror_1',['integral_error',['../struct___n_a_v___m_a_h_o_n_y___f_i_l_t_e_r.html#a6a8ba38f63f8cd4283fa5bcdf4dc1711',1,'_NAV_MAHONY_FILTER']]],
-  ['isa_2',['2.6.2. ISA',['../md___reqs_2srd.html#autotoc_md12',1,'']]]
+  ['error_0',['2.3. Error',['../md___reqs_2srd.html#autotoc_md7',1,'']]],
+  ['error_5ffail_5ffast_1',['error_fail_fast',['../error__sdr_8c.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c'],['../error__sdr_8h.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c']]],
+  ['error_5fsdr_2ec_2',['error_sdr.c',['../error__sdr_8c.html',1,'']]],
+  ['error_5fsdr_2eh_3',['error_sdr.h',['../error__sdr_8h.html',1,'']]],
+  ['eul_5fto_5fquat_4',['eul_to_quat',['../math__sdr_8c.html#a1b5b367b89029ee9dfcf5ec799d0be45',1,'eul_to_quat(float yaw, float pitch, float roll):&#160;math_sdr.c'],['../math__sdr_8h.html#a1b5b367b89029ee9dfcf5ec799d0be45',1,'eul_to_quat(float yaw, float pitch, float roll):&#160;math_sdr.c']]]
 ];

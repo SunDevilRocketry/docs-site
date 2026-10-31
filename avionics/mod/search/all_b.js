@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['error_0',['2.3. Error',['../md___reqs_2srd.html#autotoc_md7',1,'']]],
-  ['error_5ffail_5ffast_1',['error_fail_fast',['../error__sdr_8c.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c'],['../error__sdr_8h.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c']]],
-  ['error_5fsdr_2ec_2',['error_sdr.c',['../error__sdr_8c.html',1,'']]],
-  ['error_5fsdr_2eh_3',['error_sdr.h',['../error__sdr_8h.html',1,'']]]
+  ['clamp_5ffloat_0',['clamp_float',['../math__sdr_8c.html#a46feb9c0a2d90f0546b60b7f5ecf2579',1,'clamp_float(float value, float minimum, float maximum):&#160;math_sdr.c'],['../math__sdr_8h.html#a46feb9c0a2d90f0546b60b7f5ecf2579',1,'clamp_float(float value, float minimum, float maximum):&#160;math_sdr.c']]],
+  ['commands_1',['2.1. Commands',['../md___reqs_2srd.html#autotoc_md5',1,'']]],
+  ['commands_2ec_2',['commands.c',['../commands_8c.html',1,'']]],
+  ['commands_2eh_3',['commands.h',['../commands_8h.html',1,'']]],
+  ['crc32_4',['crc32',['../math__sdr_8c.html#a352fcee608de97a332174266e00f8d40',1,'crc32(const uint8_t *data, size_t len):&#160;math_sdr.c'],['../math__sdr_8h.html#a352fcee608de97a332174266e00f8d40',1,'crc32(const uint8_t *data, size_t len):&#160;math_sdr.c']]],
+  ['critical_5',['QA level: Safety Critical',['../md___reqs_2srd.html#autotoc_md1',1,'']]]
 ];
