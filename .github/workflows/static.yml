@@ -38,13 +38,15 @@ jobs:
           cd document-control
           git fetch
           git pull
+      - name: Build navigable static site
+        run: |
+          python3 scripts/build_site.py . _site
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
