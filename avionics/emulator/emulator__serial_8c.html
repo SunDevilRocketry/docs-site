@@ -139,6 +139,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>emulator_serial_write
 <tr class="memitem:a1c66e6d9107719bfe11b8eab8180cdbe" id="r_a1c66e6d9107719bfe11b8eab8180cdbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="emulator__serial_8c.html#a1c66e6d9107719bfe11b8eab8180cdbe">emulator_usb_detect</a> (SERIAL_PORT port)</td></tr>
 <tr class="memdesc:a1c66e6d9107719bfe11b8eab8180cdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect whether the file descriptor is valid.  <br /></td></tr>
 <tr class="separator:a1c66e6d9107719bfe11b8eab8180cdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a094782e68dba3d10e28b643ccdf1ca99" id="r_a094782e68dba3d10e28b643ccdf1ca99"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="emulator__serial_8c.html#a094782e68dba3d10e28b643ccdf1ca99">emulator_flush_serial</a> (SERIAL_PORT port)</td></tr>
+<tr class="memdesc:a094782e68dba3d10e28b643ccdf1ca99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush the input and output buffers of a serial port on the emulator.  <br /></td></tr>
+<tr class="separator:a094782e68dba3d10e28b643ccdf1ca99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Virtual serial port utility.</p>
@@ -152,6 +155,39 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>emulator_serial_write
 <p><a href="https://opensource.org/license/bsd-3-clause">https://opensource.org/license/bsd-3-clause</a> <br  />
  </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a094782e68dba3d10e28b643ccdf1ca99" name="a094782e68dba3d10e28b643ccdf1ca99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a094782e68dba3d10e28b643ccdf1ca99">&#9670;&#160;</a></span>emulator_flush_serial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int emulator_flush_serial </td>
+          <td>(</td>
+          <td class="paramtype">SERIAL_PORT&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flush the input and output buffers of a serial port on the emulator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>The port to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>if OK </td></tr>
+    <tr><td class="paramname">-1</td><td>if fail </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a355fbb0bd81e916bab00ae18bad0bcb9" name="a355fbb0bd81e916bab00ae18bad0bcb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a355fbb0bd81e916bab00ae18bad0bcb9">&#9670;&#160;</a></span>emulator_serial_open_port()</h2>
 
