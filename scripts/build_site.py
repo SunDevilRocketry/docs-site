@@ -10,7 +10,7 @@ from pathlib import Path
 from build_directory_indexes import generate_indexes
 
 
-EXCLUDED_NAMES = {".git", ".github", "__pycache__", "scripts", "_site"}
+EXCLUDED_NAMES = {".git", ".github", "__pycache__", "scripts", "_site", "_style_guide_src"}
 
 
 def ignored_names(_: str, names: list[str]) -> set[str]:

@@ -1,0 +1,18 @@
+/**
+\mainpage Sun Devil Rocketry Coding Style Guide
+
+This page is intended to provide a guide to Sun Devil Rocketry's code styles
+across all of our languages. For guidance on your specific language, please
+see the specific page on the sidebar.
+
+Every project, by default, uses this as its guidance. Overriding this guide
+is at the discretion of the project lead, but no projects are known to do
+this.
+
+In general, our style is designed to emphasize readability via uniformity
+and clear grouping of code blocks. Each language does this differently.
+
+\subsection contact Contact
+
+This guide is currently maintained by Eli Sells ([@etsells](https://github.com/etsells)).
+*/

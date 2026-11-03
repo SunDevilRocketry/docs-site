@@ -1,0 +1,297 @@
+/**
+\page c_style Style Guide: C
+
+\section overview Overview
+
+C is by far the most common language in use at Sun Devil Rocketry. The Avionics
+team was founded as a development group for Flight Computers and custom PCBs,
+all of which have their firmware written in C. In addition, prior to the formation
+of Avionics as an independent group within the club, they were a subteam of Liquids
+where a majority of their code was written in C++ (for Arduino), and then C.
+
+As our most common language, we have developed a highly specific code style over time.
+This was originally formed by our first avionics lead (Colton Acosta) after doing
+an internship at Garmin, and is heavily inspired by that coding style although there
+are a few notable differences.
+
+\subsection contact Contact
+
+The authoritative source for style decisions in Sun Devil Rocketry's C code is the
+project lead for each project, and then the Avionics Firmware lead, which is currently
+[Nicholas Armistead](https://github.com/narmistead).
+
+\section golden_rule SDR Style Guide Golden Rule
+
+All of these rules are general guidance to ensure uniformity and readability in our
+code. That goal of making our code readable is the most important thing: if you
+need to violate a rule in order to make your code readable, then please do that instead
+of conforming blindly to these standards. However, in most scenarios, these rules
+should work fine.
+
+\section bracing Indentation/Bracing
+
+We use four spaces per tab for indentation. Ideally, indentation should convert tabs
+to spaces, but this has never been enforced and we won't be too picky on it as long
+as your editor displays tabs aligned to the next four spaces.
+
+Arguably the most distinctive feature of our coding style is our bracing. We
+use a modified variant of [Whitesmiths](https://activeclickweb.com/whitesmiths/index.html)
+style indentation, which looks like the following:
+\code
+if ( foo )
+    {
+    bar();
+    }
+
+foobar();
+\endcode
+This style places the opening brace on a newline after the condition plus one indentation level.
+Statements are placed on the same line as the opening and closing brace. After the closing
+brace, de-indent one level. It is strongly encouraged that you include an extra space after the
+closing brace as well, although this isn't a hard rule if you have a reason why the next statement
+should be grouped with the condition.
+
+\section conditions Conditions
+
+Sun Devil Rocketry has a highly specific style for our conditional statements that
+are intended to make long predicates easier to digest.
+
+For simple conditions, the important thing to note is the spaces between if/for/while, 
+the opening parentheses, the predicate, and the closing parentheses. For example:
+\code
+if ( foo )
+\endcode
+
+For compound conditions with two components, it is acceptable to place both on the
+same line provided the whole condition is visible within the average text editor's 
+width (~60 chars). For example:
+\code
+if ( foo && bar )
+\endcode
+
+For compound conditions with three or more components, or two components where the
+conditions are too long to include on one line, our rules get a little bit more complex.
+An example is provided below:
+\code
+if ( foo1
+  && foo2
+  && ( foo3
+    || !foo4 )
+  || !( foo5 
+     && foo6 ) )
+\endcode
+1. When conditions span multiple lines, the comparison operator (&&, ||) must line up with
+the opening parentheses of the previous line or the comparison operator of the prior
+condition.
+
+2. When nesting conditions, the whole condition should become indented due to the opening
+parentheses and extra whitespace per the prior rules. This enables us to group compound
+conditions in a more digestible way.
+
+3. The "not" operator is special since it has only one operand and is half the size of the
+other logical operators. For the "not" operator, place this before a condition, even if it 
+knocks the condition out of alignment with the previous. The exception is when it is outside
+of parentheses -- we would prefer that you align the condition such that rule 1 is preserved.
+
+\subsection demorgan Conditions: De Morgan's Laws
+
+De Morgan's laws are a set of simple rules in formal logic that state:
+\quote 
+If not(P and Q), then P or Q.
+\endquote
+as well as its inverse
+\quote 
+If not(P or Q), then P and Q.
+\endquote
+
+In code, this means:
+\code
+if !( foo && bar ) ==> if ( foo || bar )
+\endcode
+and
+\code
+if !( foo || bar ) ==> if ( foo && bar )
+\endcode
+
+You can use these rules to simplify complex logical expressions if needed. Be cautious and
+use your best judgement though -- remember that readability is king!
+
+\section functions Functions
+
+Function definitions and forward declarations should be written with the return type 
+(and any qualifiers) and the function name on the same line. The opening parentheses
+should be on the next line indented one level (like our bracing) with the parameters
+listed one-per-line.
+
+\code
+static inline float foo
+    (
+    int a,
+    int b
+    );
+\endcode
+
+In header files, leave one empty line between function declarations. In source files,
+leave two empty lines between the last brace of a function and the first line associated
+with the next function (including comments).
+
+Functions that do not take any parameters are required to be declared with "void" as the
+parameter.
+
+\code
+void foo
+    (
+    void
+    );
+\endcode
+
+\subsection func_bracing Functions: Indentation & Whitespace
+
+Function bracing varies slightly from our usual bracing style: the opening and closing braces
+should not be indented at all, nor should the contents of the base function block.
+\code
+void foo
+    (
+    void
+    )
+{
+int a;
+int b;
+bar(a, b);
+
+} /* foo */
+\endcode
+Note the comment with the function name after the closing brace.
+
+\section ptrs Pointers
+
+This may not seem like it matters, but we have an opinion about where the
+asterisk should be in a pointer definition. At SDR, pointers are considered
+their own type, not a modifier of an existing type. As such, we declare our
+pointers like this:
+
+\code
+int* a;
+\endcode
+
+Opinions on this convention differ widely, but we're pretty strongly in this
+camp. Arguments for alternative conventions can be found in 
+[this Stack Overflow post](https://stackoverflow.com/questions/180401/placement-of-the-asterisk-in-pointer-declarations)
+if you're curious. The consensus on our method is that it promotes type safety,
+which we see as more important than any argument against the convention.
+
+\section comm Block Comments
+
+Block Comments are comments at the start of a file or preceding a function.
+SDR has two conventions for block comments. Doxygen style is our current convention
+and is required for new files, but there is an old convention you might find in our
+codebase.
+
+\subsection dox Doxygen
+
+Doxygen is a tool that generates documentation from comments in source code. This
+guide is written using Doxygen, and it is also used to document a bunch of our
+projects including our [mod library](https://docs.sundevilrocketry.org/avionics/mod).
+
+In addition to the ability to generate documentation, Doxygen also plays really nicely
+with VSCode, our preferred text editor. C/C++ intellisense can be augmented to pull
+from Doxygen comments, which makes writing code easier.
+
+\subsubsection doxfile Doxygen: File Comments
+
+The start of a C source file must have some kind of block comment, and under the Doxygen
+conventions this looks like the below:
+
+\verbinclude file_head_dox.c
+
+Each line is preceded by a tag. Each of these has a purpose and is formatted
+in a specific way in the generated documentation. 
+1. \@file reiterates the file name.
+2. \@brief is a short description of what the file does.
+3. \@copyright describes the copyright terms of the file. **THIS IS MANDATORY
+AT SDR**. Any code that is in an SDR repo is the property of the club. Any 
+exceptions should be cleared with the avionics lead. Our default license is the
+BSD-3-Clause. Other licenses are acceptable, but we generally prefer permissive
+licenses over copyleft licenses like the GPL.
+4. \@verbatim formats anything between it and \@endverbatim as a code block in a
+monospace font. Some early files that use Doxygen have that tag enclosing
+normal documentation or extended descriptions.
+5. \@dir indicates that the following documentation applies to the directory that
+holds the file. We recommend that this tag be written in the top-level header of
+a module.
+6. \@section starts a section in documentation. The first argument doesn't really
+matter, and the second is used as the section name.
+7. \@code and \@endcode enclose monospaced blocks, usually used for code (duh)
+
+\subsubsection doxfunc Doxygen: Function Comments
+
+Functions must be documented as follows in both the source and
+header file:
+\verbinclude func_def_dox.c
+
+Each line is preceded by a tag. Each of these has a purpose and is formatted
+in a specific way in the generated documentation.
+1. [required] \@brief is a short description of the function and its purpose.
+2. \@note adds a banner with additional important information to the generated
+docs.
+3. \@warning does the same as the above but with a higher warning level.
+4. \@details is a longer description of the function and its purpose.
+5. [required] \@param describes a parameter to the function.
+
+The function return MUST be described using one of the following methods:
+6. \@return describes what the return of the function represents.
+7. \@retval is used for specific return values (i.e. what NAV_BUSY means).
+You can have multiple \@retval tags for the same function.
+
+Also note that the doxygen comment has no space between it and the function definition.
+
+\subsection legacy Legacy Comments
+
+Our legacy comment format is a lot simpler and looks like the below:
+
+File:
+\verbatim
+/*******************************************************************************
+*
+* FILE: 
+* 		ignition.c
+*
+* DESCRIPTION: 
+* 		Contains API function to the engine controller ignition system and 
+*       contintuity readings
+*
+* COPYRIGHT:                                                                   
+*       Copyright (c) 2025 Sun Devil Rocketry.                                 
+*       All rights reserved.                                                   
+*                                                                              
+*       This software is licensed under terms that can be found in the LICENSE 
+*       file in the root directory of this software component.                 
+*       If no LICENSE file comes with this software, it is covered under the   
+*       BSD-3-Clause.                                                          
+*                                                                              
+*       https://opensource.org/license/bsd-3-clause          
+*
+*******************************************************************************/
+\endverbatim
+
+Note that the legacy style still notes copyright information -- this is required
+no matter what!
+
+Function:
+
+\verbatim
+/*******************************************************************************
+*                                                                              *
+* PROCEDURE:                                                                   * 
+* 		ign_cmd_execute                                                        *
+*                                                                              *
+* DESCRIPTION:                                                                 * 
+* 		Executes an ignition subcommand based on user input from the sdec      *
+*       terminal                                                               *
+*                                                                              *
+*******************************************************************************/
+\endverbatim
+
+These comments are only required above the actual implementation, headers do not
+have these in the legacy style.
+*/

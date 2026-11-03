@@ -1,0 +1,21 @@
+var NAVTREEINDEX0 =
+{
+"c_style.html":[1],
+"c_style.html#bracing":[1,2],
+"c_style.html#comm":[1,6],
+"c_style.html#conditions":[1,3],
+"c_style.html#contact":[1,0,0],
+"c_style.html#demorgan":[1,3,0],
+"c_style.html#dox":[1,6,0],
+"c_style.html#doxfile":[1,6,0,0],
+"c_style.html#doxfunc":[1,6,0,1],
+"c_style.html#func_bracing":[1,4,0],
+"c_style.html#functions":[1,4],
+"c_style.html#golden_rule":[1,1],
+"c_style.html#legacy":[1,6,1],
+"c_style.html#overview":[1,0],
+"c_style.html#ptrs":[1,5],
+"index.html":[],
+"index.html":[0],
+"pages.html":[]
+};
