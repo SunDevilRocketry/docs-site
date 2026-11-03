@@ -96,13 +96,13 @@ of parentheses -- we would prefer that you align the condition such that rule 1 
 \subsection demorgan Conditions: De Morgan's Laws
 
 De Morgan's laws are a set of simple rules in formal logic that state:
-\quote 
+\verbatim
 If not(P and Q), then P or Q.
-\endquote
+\endverbatim
 as well as its inverse
-\quote 
+\verbatim 
 If not(P or Q), then P and Q.
-\endquote
+\endverbatim
 
 In code, this means:
 \code

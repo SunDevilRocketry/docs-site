@@ -150,8 +150,9 @@ Conditions</h1>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="demorgan"></a>
 Conditions: De Morgan's Laws</h2>
-<p>De Morgan's laws are a set of simple rules in formal logic that state: \quote If not(P and Q), then P or Q. \endquote as well as its inverse \quote If not(P or Q), then P and Q. \endquote</p>
-<p>In code, this means: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> !( foo &amp;&amp; bar ) ==&gt; <span class="keywordflow">if</span> ( foo || bar )</div>
+<p>De Morgan's laws are a set of simple rules in formal logic that state: </p><pre class="fragment">If not(P and Q), then P or Q.
+</pre><p> as well as its inverse </p><pre class="fragment">If not(P or Q), then P and Q.
+</pre><p>In code, this means: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> !( foo &amp;&amp; bar ) ==&gt; <span class="keywordflow">if</span> ( foo || bar )</div>
 </div><!-- fragment --><p> and </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> !( foo || bar ) ==&gt; <span class="keywordflow">if</span> ( foo &amp;&amp; bar )</div>
 </div><!-- fragment --><p>You can use these rules to simplify complex logical expressions if needed. Be cautious and use your best judgement though &ndash; remember that readability is king!</p>
 <h1 class="doxsection"><a class="anchor" id="functions"></a>
