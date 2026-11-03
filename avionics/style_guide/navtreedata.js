@@ -46,6 +46,14 @@ var NAVTREE =
         ] ],
         [ "Legacy Comments", "c_style.html#legacy", null ]
       ] ]
+    ] ],
+    [ "Style Guide: Python", "py_style.html", [
+      [ "Licensing", "py_style.html#license", null ],
+      [ "Naming Conventions", "py_style.html#naming", null ],
+      [ "Imports", "py_style.html#imports", null ],
+      [ "Type Annotations", "py_style.html#type_annotations", null ],
+      [ "Docstrings", "py_style.html#docstrings", null ],
+      [ "Classes", "py_style.html#classes", null ]
     ] ]
   ] ]
 ];

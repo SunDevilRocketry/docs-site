@@ -1,0 +1,162 @@
+/**
+\page py_style Style Guide: Python
+
+\section overview Overview
+
+Python is SDR's second most common language. It is used primarily for developer tools
+and situations where development speed is the most important factor over runtime or
+bespoke UI.
+
+Our Python coding style is nowhere near as unique as our C style. Most of our Python
+conventions are consistent with the language's usual style since Python devs follow
+a much more consistent style across projects.
+
+Much of this guide was written by [Journey Hancock (2026)](https://github.com/journeyhancock)
+as a guide for SDECv2. Journey was the SDEC project lead for over a year and helped shape the 
+organization's Python practices.
+
+\subsection contact Contact
+
+The authoritative source for style decisions in Sun Devil Rocketry's Python code is the
+project lead for each project, and then the SDEC project lead, which is currently
+[Eli Sells](https://github.com/etsells).
+
+\section golden_rule SDR Style Guide Golden Rule
+
+All of these rules are general guidance to ensure uniformity and readability in our
+code. That goal of making our code readable is the most important thing: if you
+need to violate a rule in order to make your code readable, then please do that instead
+of conforming blindly to these standards. However, in most scenarios, these rules
+should work fine.
+
+\section license Licensing
+
+Every source file must begin with the SPDX license header for the project's chosen
+license. We use the BSD-3-Clause by default at Sun Devil Rocketry:
+
+\verbatim
+# SPDX-License-Identifier: BSD-3-Clause
+# Copyright (c) 2025 Sun Devil Rocketry
+\endverbatim
+
+This applies to all `.py` files, including `__init__.py`.
+
+\section naming Naming Conventions
+
+| Element | Convention | Example |
+|---|---|---|
+| Classes | `PascalCase` | `BaseController`, `SerialObj` |
+| Functions / Methods | `snake_case` | `open_comport`, `flash_extract` |
+| Variables | `snake_case` | `preset_data`, `sensor_frame_names` |
+| Constants | `UPPER_SNAKE_CASE` | `FLASH_SIZE` |
+| Private methods | Leading underscore | `_parse_preset`, `_compute_frames` |
+| Module-level files | `snake_case` | `serial_controller.py`, `create_configs.py` |
+| Factory files | `create_<subject>.py` | `create_controllers.py`, `create_configs.py` |
+
+\section imports Imports
+
+Imports follow this order, separated by a blank line between each group:
+
+1. Standard library (`builtins`, `json`, `os`, `struct`, `time`)
+2. Third-party packages (`serial`, `pandas`)
+3. Internal relative imports (`.module`)
+4. Cross-package absolute imports (`SDECv2.BaseController`, `SDECv2.SerialController`)
+5. `typing` imports (`List`, `Callable`, `Generator`)
+
+\verbatim
+import json
+import os
+import struct
+
+import pandas as pd
+import serial
+
+from .preset_config import PresetConfig, ConfigEntry
+from .preset_data import PresetData
+
+from SDECv2.SerialController import SerialObj
+
+from typing import List
+\endverbatim
+
+Wildcard imports (`from module import *`) are strongly discouraged, and the SDECv2 project even 
+disallows them outright. 
+
+These can cause the python interpreter in VSCode to incorrectly show import errors and are generally
+considered bad practice to use.
+
+\section type_annotations Type Annotations
+
+Type annotations are strongly encouraged and are required on many of our projects.
+
+Use `|` union syntax (Python 3.10+) for optional or multi-type parameters.
+
+\verbatim
+def poll(
+    self,
+    serial_connection: SerialObj,
+    timeout: int | None = None,
+    count: int | None = None
+) -> Generator[float | int, None, None]:
+\endverbatim
+
+Use `typing.List`, `typing.Callable`, and `typing.Generator` for complex generic types. 
+For forward references to the enclosing class, use a string literal:
+
+\verbatim
+@classmethod
+def from_file(cls, path: str) -> "Parser":
+\endverbatim
+
+\section docstrings Docstrings
+
+It is best practice to give every class and public method a docstring. Use the following format:
+
+\verbatim
+def method(self, arg: Type) -> ReturnType:
+    """
+    One-sentence summary of what this method does.
+
+    Args:
+        arg (Type): Description of the argument.
+
+    Returns:
+        ReturnType: Description of the return value.
+
+    Raises:
+        ExceptionType: When and why this is raised.
+    """
+\endverbatim
+
+- The `Raises` section is included only when the method explicitly raises exceptions.
+- Private methods (prefixed with `_`) follow the same docstring format.
+- Inline comments are used for non-obvious protocol details, especially serial byte sequences.
+
+\section classes Classes
+
+Classes should use `PascalCase` and include a two-line class-level docstring: one sentence describing 
+the class purpose, and one sentence describing what it provides.
+
+\verbatim
+class Parser:
+    """
+    Parses and manages preset configurations and data for the Flight Computer.
+    Provides methods to load, verify, upload, and manipulate presets.
+    """
+\endverbatim
+
+`__str__` and `__repr__` should be implemented for all major model classes. 
+
+\verbatim
+def __str__(self):
+    return (
+        "Base Controller:{" + 
+        "\n{}".format(self.firmware) +
+        "\n{}".format(self.controller) +
+        "\n}"
+    )
+\endverbatim
+
+`__eq__` and `__hash__` should be implemented together whenever objects are compared 
+or used in sets/dicts.
+*/

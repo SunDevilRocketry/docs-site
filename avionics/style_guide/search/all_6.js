@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['laws_0',['Conditions: De Morgan&apos;s Laws',['../c_style.html#demorgan',1,'']]],
-  ['legacy_20comments_1',['Legacy Comments',['../c_style.html#legacy',1,'']]]
+  ['imports_0',['Imports',['../py_style.html#imports',1,'']]],
+  ['indentation_20bracing_1',['Indentation/Bracing',['../c_style.html#bracing',1,'']]],
+  ['indentation_20whitespace_2',['Functions: Indentation &amp;amp; Whitespace',['../c_style.html#func_bracing',1,'']]]
 ];

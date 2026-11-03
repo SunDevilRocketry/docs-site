@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['overview_0',['Overview',['../c_style.html#overview',1,'']]]
+  ['morgan_20s_20laws_0',['Conditions: De Morgan&apos;s Laws',['../c_style.html#demorgan',1,'']]]
 ];

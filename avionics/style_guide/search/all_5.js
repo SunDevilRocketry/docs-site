@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['indentation_20bracing_0',['Indentation/Bracing',['../c_style.html#bracing',1,'']]],
-  ['indentation_20whitespace_1',['Functions: Indentation &amp;amp; Whitespace',['../c_style.html#func_bracing',1,'']]]
+  ['golden_20rule_0',['SDR Style Guide Golden Rule',['../py_style.html#golden_rule',1,'']]],
+  ['guide_1',['Sun Devil Rocketry Coding Style Guide',['../index.html',1,'']]],
+  ['guide_20golden_20rule_2',['SDR Style Guide Golden Rule',['../py_style.html#golden_rule',1,'']]],
+  ['guide_3a_20c_3',['Style Guide: C',['../c_style.html',1,'']]],
+  ['guide_3a_20python_4',['Style Guide: Python',['../py_style.html',1,'']]]
 ];

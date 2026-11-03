@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pointers_0',['Pointers',['../c_style.html#ptrs',1,'']]]
+  ['naming_20conventions_0',['Naming Conventions',['../py_style.html#naming',1,'']]]
 ];

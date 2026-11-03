@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['whitespace_0',['Functions: Indentation &amp;amp; Whitespace',['../c_style.html#func_bracing',1,'']]]
+  ['rocketry_20coding_20style_20guide_0',['Sun Devil Rocketry Coding Style Guide',['../index.html',1,'']]],
+  ['rule_1',['SDR Style Guide Golden Rule',['../py_style.html#golden_rule',1,'']]]
 ];

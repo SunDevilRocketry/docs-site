@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['file_20comments_0',['Doxygen: File Comments',['../c_style.html#doxfile',1,'']]],
-  ['function_20comments_1',['Doxygen: Function Comments',['../c_style.html#doxfunc',1,'']]],
-  ['functions_2',['Functions',['../c_style.html#functions',1,'']]],
-  ['functions_3a_20indentation_20whitespace_3',['Functions: Indentation &amp;amp; Whitespace',['../c_style.html#func_bracing',1,'']]]
+  ['de_20morgan_20s_20laws_0',['Conditions: De Morgan&apos;s Laws',['../c_style.html#demorgan',1,'']]],
+  ['devil_20rocketry_20coding_20style_20guide_1',['Sun Devil Rocketry Coding Style Guide',['../index.html',1,'']]],
+  ['docstrings_2',['Docstrings',['../py_style.html#docstrings',1,'']]],
+  ['doxygen_3',['Doxygen',['../c_style.html#dox',1,'']]],
+  ['doxygen_3a_20file_20comments_4',['Doxygen: File Comments',['../c_style.html#doxfile',1,'']]],
+  ['doxygen_3a_20function_20comments_5',['Doxygen: Function Comments',['../c_style.html#doxfunc',1,'']]]
 ];

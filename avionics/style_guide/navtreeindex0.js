@@ -17,5 +17,12 @@ var NAVTREEINDEX0 =
 "c_style.html#ptrs":[1,5],
 "index.html":[],
 "index.html":[0],
-"pages.html":[]
+"pages.html":[],
+"py_style.html":[2],
+"py_style.html#classes":[2,5],
+"py_style.html#docstrings":[2,4],
+"py_style.html#imports":[2,2],
+"py_style.html#license":[2,0],
+"py_style.html#naming":[2,1],
+"py_style.html#type_annotations":[2,3]
 };
