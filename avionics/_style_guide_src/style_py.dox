@@ -159,4 +159,7 @@ def __str__(self):
 
 `__eq__` and `__hash__` should be implemented together whenever objects are compared 
 or used in sets/dicts.
+
+\section py_example Full Example
+\verbinclude parser.py
 */

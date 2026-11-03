@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['morgan_20s_20laws_0',['Conditions: De Morgan&apos;s Laws',['../c_style.html#demorgan',1,'']]]
+  ['laws_0',['Conditions: De Morgan&apos;s Laws',['../c_style.html#demorgan',1,'']]],
+  ['legacy_20comments_1',['Legacy Comments',['../c_style.html#legacy',1,'']]],
+  ['licensing_2',['Licensing',['../py_style.html#license',1,'']]]
 ];

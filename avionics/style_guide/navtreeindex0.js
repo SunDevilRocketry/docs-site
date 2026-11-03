@@ -2,6 +2,7 @@ var NAVTREEINDEX0 =
 {
 "c_style.html":[1],
 "c_style.html#bracing":[1,2],
+"c_style.html#c_example":[1,7],
 "c_style.html#comm":[1,6],
 "c_style.html#conditions":[1,3],
 "c_style.html#contact":[1,0,0],
@@ -24,5 +25,6 @@ var NAVTREEINDEX0 =
 "py_style.html#imports":[2,2],
 "py_style.html#license":[2,0],
 "py_style.html#naming":[2,1],
+"py_style.html#py_example":[2,6],
 "py_style.html#type_annotations":[2,3]
 };

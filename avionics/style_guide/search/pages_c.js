@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rocketry_20coding_20style_20guide_0',['Sun Devil Rocketry Coding Style Guide',['../index.html',1,'']]],
-  ['rule_1',['SDR Style Guide Golden Rule',['../py_style.html#golden_rule',1,'']]]
+  ['pointers_0',['Pointers',['../c_style.html#ptrs',1,'']]],
+  ['python_1',['Style Guide: Python',['../py_style.html',1,'']]]
 ];

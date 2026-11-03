@@ -45,7 +45,8 @@ var NAVTREE =
           [ "Doxygen: Function Comments", "c_style.html#doxfunc", null ]
         ] ],
         [ "Legacy Comments", "c_style.html#legacy", null ]
-      ] ]
+      ] ],
+      [ "Full Example", "c_style.html#c_example", null ]
     ] ],
     [ "Style Guide: Python", "py_style.html", [
       [ "Licensing", "py_style.html#license", null ],
@@ -53,7 +54,8 @@ var NAVTREE =
       [ "Imports", "py_style.html#imports", null ],
       [ "Type Annotations", "py_style.html#type_annotations", null ],
       [ "Docstrings", "py_style.html#docstrings", null ],
-      [ "Classes", "py_style.html#classes", null ]
+      [ "Classes", "py_style.html#classes", null ],
+      [ "Full Example", "py_style.html#py_example", null ]
     ] ]
   ] ]
 ];

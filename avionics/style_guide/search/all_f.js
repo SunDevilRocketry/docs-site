@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['whitespace_0',['Functions: Indentation &amp;amp; Whitespace',['../c_style.html#func_bracing',1,'']]]
+  ['type_20annotations_0',['Type Annotations',['../py_style.html#type_annotations',1,'']]]
 ];

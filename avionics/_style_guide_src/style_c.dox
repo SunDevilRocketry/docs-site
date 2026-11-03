@@ -294,4 +294,7 @@ Function:
 
 These comments are only required above the actual implementation, headers do not
 have these in the legacy style.
+
+\section c_example Full Example
+\verbinclude debug_sdr.c
 */
