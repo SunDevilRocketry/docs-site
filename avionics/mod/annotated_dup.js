@@ -1,17 +1,20 @@
 var annotated_dup =
 [
-    [ "_BARO_PRESET", "struct__BARO__PRESET.html", null ],
-    [ "_DEBUG_HANDLE", "struct__DEBUG__HANDLE.html", null ],
-    [ "_ERROR_CALLBACK", "struct__ERROR__CALLBACK.html", null ],
-    [ "_IMU_CONVERTED", "struct__IMU__CONVERTED.html", null ],
-    [ "_IMU_DATA", "struct__IMU__DATA.html", null ],
-    [ "_MAHONY_FILTER", "struct__MAHONY__FILTER.html", "struct__MAHONY__FILTER" ],
-    [ "_QUAT", "struct__QUAT.html", null ],
-    [ "_STATE_ESTIMATION", "struct__STATE__ESTIMATION.html", null ],
-    [ "_VECTOR_3F", "struct__VECTOR__3F.html", null ],
     [ "BARO_PRESET_OPAQUE", "structBARO__PRESET__OPAQUE.html", null ],
+    [ "DEBUG_HANDLE", "structDEBUG__HANDLE.html", null ],
+    [ "ERROR_CALLBACK", "structERROR__CALLBACK.html", null ],
     [ "IMU_OFFSET_OPAQUE", "structIMU__OFFSET__OPAQUE.html", null ],
-    [ "SENSOR_DATA", "structSENSOR__DATA.html", null ],
+    [ "NAV_BARO_FILTER_STATE", "structNAV__BARO__FILTER__STATE.html", null ],
+    [ "NAV_CONFIG", "structNAV__CONFIG.html", null ],
+    [ "NAV_MAHONY_FILTER", "structNAV__MAHONY__FILTER.html", "structNAV__MAHONY__FILTER" ],
+    [ "NAV_OUTPUTS", "structNAV__OUTPUTS.html", null ],
+    [ "NAV_POF_STATE", "structNAV__POF__STATE.html", null ],
+    [ "NAV_PRIVATE_STATE", "structNAV__PRIVATE__STATE.html", null ],
+    [ "NAV_PUBLIC_STATE", "structNAV__PUBLIC__STATE.html", null ],
+    [ "NAV_SENSORS", "structNAV__SENSORS.html", null ],
+    [ "QUAT", "structQUAT.html", null ],
     [ "SERVO_PRESET_OPAQUE", "structSERVO__PRESET__OPAQUE.html", null ],
-    [ "TEXT_MESSAGE", "structTEXT__MESSAGE.html", null ]
+    [ "SYSTEM_TIME", "structSYSTEM__TIME.html", null ],
+    [ "TEXT_MESSAGE", "structTEXT__MESSAGE.html", null ],
+    [ "VECTOR_3F", "structVECTOR__3F.html", null ]
 ];

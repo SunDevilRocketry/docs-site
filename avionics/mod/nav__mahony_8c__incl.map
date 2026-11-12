@@ -1,0 +1,27 @@
+<map id="nav/nav_mahony.c" name="nav/nav_mahony.c">
+<area shape="rect" id="Node000001" title="Navigation &amp; sensor fusion component&#39;s attitude filter module." alt="" coords="38,5,181,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,73,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,36,64,71,60,69,98,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="73,384,146,411"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,31,112,169,112,248,112,368,107,367,107,248,107,169,109,36"/>
+<area shape="rect" id="Node000004" href="$nav__prv_8h.html" title="Navigation component private header." alt="" coords="286,81,370,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,31,277,74,273,77,149,36"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="366,232,440,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="352,107,380,127,401,155,410,187,410,219,405,216,404,188,397,158,376,131,352,112"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,384,357,411"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="357,106,392,127,424,155,444,181,458,205,462,230,455,261,434,297,408,329,351,377,349,372,404,325,430,294,450,259,457,230,453,206,440,184,420,158,389,131,357,112"/>
+<area shape="rect" id="Node000007" href="$nav_8h.html" title="Navigation component public header." alt="" coords="219,232,275,260"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="304,111,281,131,260,158,250,188,248,218,243,216,245,187,255,155,278,127,308,107"/>
+<area shape="rect" id="Node000010" href="$nav__contract_8h.html" title="Navigation component contract header." alt="" coords="270,157,387,184"/>
+<area shape="poly" id="edge12_Node000004_Node000010" title=" " alt="" coords="330,107,331,142,326,140,327,112"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="255,258,307,370,301,369,251,262"/>
+<area shape="rect" id="Node000008" href="$math__sdr_8h.html" title="Contains math and utility functions for SDR code." alt="" coords="147,308,240,336"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="240,259,214,297,210,293,235,262"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="181,335,138,375,135,371,176,337"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="216,334,284,375,279,376,215,339"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="170,384,241,411"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="197,334,204,370,199,367,194,338"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="342,182,381,221,376,221,341,187"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="330,183,320,369,315,367,325,186"/>
+<area shape="poly" id="edge15_Node000010_Node000007" title=" " alt="" coords="316,183,274,224,271,220,312,187"/>
+</map>

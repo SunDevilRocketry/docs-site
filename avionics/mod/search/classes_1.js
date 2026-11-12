@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['baro_5fpreset_5fopaque_0',['BARO_PRESET_OPAQUE',['../structBARO__PRESET__OPAQUE.html',1,'']]]
+  ['debug_5fhandle_0',['DEBUG_HANDLE',['../structDEBUG__HANDLE.html',1,'']]]
 ];

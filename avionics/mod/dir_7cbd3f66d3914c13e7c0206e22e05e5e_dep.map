@@ -1,0 +1,6 @@
+<map id="debug_sdr" name="debug_sdr">
+<area shape="rect" id="node1" href="dir_7cbd3f66d3914c13e7c0206e22e05e5e.html" title="Provides a unified debug logging interface across SDR embedded code. Built for low&#45;memory/no&#45;dynamic&#45;..." alt="" coords="5,5,94,33"/>
+<area shape="rect" id="node2" href="dir_4bc9ade3e8be2918b347d6a1d0dc4f36.html" title="Provides a unified error handler for SDR embedded firmware." alt="" coords="10,81,89,109"/>
+<area shape="poly" id="edge1" href="dir_000002_000003.html" alt="" coords="51,31,52,66,47,65,48,36"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000002_000003.html" title="1" alt="" coords="54,54,62,71"/>
+</map>

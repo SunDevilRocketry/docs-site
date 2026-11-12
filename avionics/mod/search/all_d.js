@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['error_0',['2.3. Error',['../md___reqs_2srd.html#autotoc_md7',1,'']]],
-  ['error_5ffail_5ffast_1',['error_fail_fast',['../error__sdr_8c.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c'],['../error__sdr_8h.html#ad8a2c0b32e5bfb8386c2a98a7456cad7',1,'error_fail_fast(volatile ERROR_CODE error_code):&#160;error_sdr.c']]],
-  ['error_5fsdr_2ec_2',['error_sdr.c',['../error__sdr_8c.html',1,'']]],
-  ['error_5fsdr_2eh_3',['error_sdr.h',['../error__sdr_8h.html',1,'']]],
-  ['eul_5fto_5fquat_4',['eul_to_quat',['../math__sdr_8c.html#a1b5b367b89029ee9dfcf5ec799d0be45',1,'eul_to_quat(float yaw, float pitch, float roll):&#160;math_sdr.c'],['../math__sdr_8h.html#a1b5b367b89029ee9dfcf5ec799d0be45',1,'eul_to_quat(float yaw, float pitch, float roll):&#160;math_sdr.c']]]
+  ['guide_0',['Guide',['../dir_7cbd3f66d3914c13e7c0206e22e05e5e.html#dbg_integ',1,'Integration Guide'],['../dir_4bc9ade3e8be2918b347d6a1d0dc4f36.html#error_integ',1,'Integration Guide'],['../index.html#integ_sec',1,'Integration Guide'],['../dir_be592b5f70d50bb0d22e940007f31426.html#nav_integ',1,'Integration Guide']]]
 ];

@@ -1,0 +1,21 @@
+<map id="nav/nav.h" name="nav/nav.h">
+<area shape="rect" id="Node000001" title="Navigation component public header." alt="" coords="377,5,461,33"/>
+<area shape="rect" id="Node000002" href="$nav_8c.html" title="Navigation &amp; sensor fusion component&#39;s main module." alt="" coords="5,232,89,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,32,295,53,259,66,226,83,173,120,125,163,59,234,56,230,121,159,169,116,223,79,257,62,293,48,364,30"/>
+<area shape="rect" id="Node000003" href="$nav__contract_8h.html" title="Navigation component contract header." alt="" coords="236,81,381,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="389,40,329,83,327,78,385,43"/>
+<area shape="rect" id="Node000004" href="$nav__prv_8h.html" title="Navigation component private header." alt="" coords="279,157,391,184"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="416,46,409,79,396,110,375,137,353,159,350,154,371,134,391,107,404,77,413,50"/>
+<area shape="rect" id="Node000007" href="$nav__pof_8c.html" title="Navigation &amp; sensor fusion component phase of flight." alt="" coords="414,232,525,260"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="427,46,469,232,464,231,423,50"/>
+<area shape="rect" id="Node000008" href="$nav__utl_8c.html" title="Navigation &amp; sensor fusion component utilities." alt="" coords="549,232,657,260"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="440,43,595,232,590,232,438,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="320,121,333,157,328,155,317,126"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="269,191,90,237,88,232,268,186"/>
+<area shape="rect" id="Node000005" href="$nav__isa_8c.html" title="Navigation &amp; sensor fusion component&#39;s ISA/altitude model." alt="" coords="280,232,390,260"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="337,198,337,234,333,230,333,202"/>
+<area shape="rect" id="Node000006" href="$nav__mahony_8c.html" title="Navigation &amp; sensor fusion component&#39;s attitude filter module." alt="" coords="113,232,256,260"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="297,191,212,234,210,229,292,192"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="373,189,448,232,443,232,371,195"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="398,186,558,232,552,232,397,191"/>
+</map>

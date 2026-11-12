@@ -1,0 +1,19 @@
+<map id="NAV_PRIVATE_STATE" name="NAV_PRIVATE_STATE">
+<area shape="rect" id="Node000001" title="The private state of the navigation library." alt="" coords="584,145,738,173"/>
+<area shape="rect" id="Node000002" href="$structNAV__CONFIG.html" title="Navigation library configuration parameters." alt="" coords="288,6,394,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,20,485,32,524,43,561,59,590,78,615,101,652,145,647,144,612,105,587,82,559,64,522,48,484,37,410,26"/>
+<area shape="rect" id="Node000003" href="$structNAV__MAHONY__FILTER.html" title="State and gains for a Mahony attitude filter." alt="" coords="259,58,423,86"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,85,499,97,561,114,633,145,628,145,559,119,498,103,438,90"/>
+<area shape="rect" id="Node000004" href="$structQUAT.html" title=" " alt="" coords="25,21,83,49"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,38,260,60,257,64,99,43"/>
+<area shape="rect" id="Node000005" href="$structVECTOR__3F.html" title="Three&#45;dimensional floating&#45;point vector." alt="" coords="5,121,103,149"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="118,134,560,151,586,154,581,155,560,156,118,140"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="116,119,276,84,273,89,118,124"/>
+<area shape="rect" id="Node000007" href="$structNAV__SENSORS.html" title="Navigation library sensor inputs." alt="" coords="283,182,399,210"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="69,160,94,194,110,209,128,221,152,229,173,229,222,221,291,210,286,212,223,226,173,235,152,234,126,226,107,214,90,198,68,165"/>
+<area shape="rect" id="Node000006" href="$structNAV__POF__STATE.html" title="Phase&#45;of&#45;flight subsystem internal state." alt="" coords="277,234,404,262"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="419,243,488,234,559,216,603,195,639,174,644,172,606,200,561,221,489,239,420,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="414,190,560,176,594,173,589,174,560,181,415,195"/>
+<area shape="rect" id="Node000008" href="$structNAV__BARO__FILTER__STATE.html" title="Baro filter internal state." alt="" coords="247,288,435,315"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="450,298,506,288,559,268,589,247,615,221,649,174,654,172,619,224,592,251,561,273,507,294,451,304"/>
+</map>

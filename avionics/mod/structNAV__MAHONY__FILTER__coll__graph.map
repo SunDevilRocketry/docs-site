@@ -1,0 +1,7 @@
+<map id="NAV_MAHONY_FILTER" name="NAV_MAHONY_FILTER">
+<area shape="rect" id="Node000001" title="State and gains for a Mahony attitude filter." alt="" coords="5,106,170,134"/>
+<area shape="rect" id="Node000002" href="$structQUAT.html" title=" " alt="" coords="8,5,66,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="40,46,52,81,73,105,68,106,48,83,38,51"/>
+<area shape="rect" id="Node000003" href="$structVECTOR__3F.html" title="Three&#45;dimensional floating&#45;point vector." alt="" coords="90,5,187,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,46,111,83,97,107,94,104,106,81,124,49"/>
+</map>

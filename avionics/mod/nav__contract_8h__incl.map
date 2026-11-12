@@ -1,0 +1,17 @@
+<map id="nav/nav_contract.h" name="nav/nav_contract.h">
+<area shape="rect" id="Node000001" title="Navigation component contract header." alt="" coords="44,5,189,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,36,68,71,64,68,105,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="109,232,191,260"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,32,148,217,143,217,116,35"/>
+<area shape="rect" id="Node000004" href="$nav_8h.html" title="Navigation component public header." alt="" coords="154,81,210,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,31,163,69,158,70,128,36"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="182,108,158,218,154,216,177,110"/>
+<area shape="rect" id="Node000005" href="$math__sdr_8h.html" title="Contains math and utility functions for SDR code." alt="" coords="205,157,298,184"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="195,107,231,145,226,145,194,112"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="236,184,182,225,179,221,231,186"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="215,232,288,260"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="253,183,254,218,249,215,249,187"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="312,232,382,260"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="269,182,321,223,316,222,268,187"/>
+</map>

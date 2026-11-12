@@ -1,0 +1,20 @@
+<map id="debug_sdr/debug_sdr.c" name="debug_sdr/debug_sdr.c">
+<area shape="rect" id="Node000001" title="Interfaces for debugging SDR embedded firmware." alt="" coords="27,5,196,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,157,71,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,36,54,144,49,141,105,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="94,157,160,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,31,127,141,122,141,111,35"/>
+<area shape="rect" id="Node000004" href="$debug__sdr_8h.html" title="Interfaces for debugging SDR embedded firmware." alt="" coords="148,81,248,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,31,174,70,169,72,127,36"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="168,112,82,152,79,148,171,107"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="187,107,152,147,148,144,183,111"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="157,232,239,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="200,107,201,217,195,216,196,110"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="350,157,420,184"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="232,107,340,150,335,152,231,112"/>
+<area shape="rect" id="Node000007" href="$error__sdr_8h.html" title="Contains error handling functions for SDR code." alt="" coords="236,157,326,184"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="213,107,257,146,252,146,212,112"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="268,184,225,224,223,220,263,186"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="263,232,333,260"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="285,183,294,218,289,216,282,187"/>
+</map>
