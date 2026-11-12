@@ -6,5 +6,6 @@ var searchData=
   ['_5fdarray_5fget_5fheader_3',['_DARRAY_GET_HEADER',['../darr_8h.html#ad628cce2d99a62ed4c3c3c2ec47069ee',1,'darr.h']]],
   ['_5fdarray_5fgrow_4',['_DARRAY_GROW',['../darr_8h.html#ad25713d68ec410731ee2e4bc12be9ec2',1,'darr.h']]],
   ['_5fdarray_5fpush_5fdp_5',['_DARRAY_PUSH_DP',['../darr_8h.html#af41e94793ce34a22f17ead998cf3a3d5',1,'darr.h']]],
-  ['_5fdarray_5fpush_5fsp_6',['_DARRAY_PUSH_SP',['../darr_8h.html#ae141f43cf166c557eaf15e451a3559a9',1,'darr.h']]]
+  ['_5fdarray_5fpush_5fsp_6',['_DARRAY_PUSH_SP',['../darr_8h.html#ae141f43cf166c557eaf15e451a3559a9',1,'darr.h']]],
+  ['_5fflightpath_5fexit_5fempty_7',['_FLIGHTPATH_EXIT_EMPTY',['../emulator__flightpath_8c.html#aee0a59708028c661848695d5925ac2ea',1,'emulator_flightpath.c']]]
 ];

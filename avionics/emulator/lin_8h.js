@@ -1,0 +1,26 @@
+var lin_8h =
+[
+    [ "vec3", "unionvec3.html", "unionvec3" ],
+    [ "vec3::_vec3_members", "structvec3_1_1__vec3__members.html", "structvec3_1_1__vec3__members" ],
+    [ "mat4", "unionmat4.html", "unionmat4" ],
+    [ "mat4::_mat4_members", "structmat4_1_1__mat4__members.html", "structmat4_1_1__mat4__members" ],
+    [ "GRAPHICS_OPTIMIZED_PROCEDURE", "lin_8h.html#a936e9b295ce614e3469f78e8eaae6620", null ],
+    [ "mat4", "lin_8h.html#a33633df688328fb09aa8860e1ec1266c", null ],
+    [ "vec3", "lin_8h.html#a6dd4ec3350da7a19bff2f07a26b4095d", null ],
+    [ "mat4Add", "lin_8h.html#afd0df6ecb2d0d3830fe2e385e00daf95", null ],
+    [ "mat4AxisAngle", "lin_8h.html#acb86cb6389d6f262d2b1080844df982c", null ],
+    [ "mat4Identity", "lin_8h.html#a4b2404e39d79847b268bb5fed5c6d62d", null ],
+    [ "mat4LookAt", "lin_8h.html#a85cf3e9589bf8f6d06b70b327d78aee3", null ],
+    [ "mat4Mult", "lin_8h.html#a3a275192f3d4982b9ed5eb141bff279d", null ],
+    [ "mat4MultScalar", "lin_8h.html#a3b9aeebfa6e5646785f7a171d9ad8f07", null ],
+    [ "mat4Proj", "lin_8h.html#ad3ba9fbda534e244932c801f57c2b0fd", null ],
+    [ "mat4RotY", "lin_8h.html#add6ccfabf95667f48d176110e022b23b", null ],
+    [ "mat4Translation", "lin_8h.html#aa413f8340d07023cab43ce8a381697cf", null ],
+    [ "vec3Cross", "lin_8h.html#aadd1ab17aaf2e050306336028e3372e4", null ],
+    [ "vec3Dot", "lin_8h.html#a26fbe3e3cffc5f3256ae8d683b796530", null ],
+    [ "vec3Magnitude", "lin_8h.html#af6ebfc7a169ca6d50f7f9fd1c604b238", null ],
+    [ "vec3MultScalar", "lin_8h.html#a41d304ed46ea8c89283d21006f582c60", null ],
+    [ "vec3New", "lin_8h.html#a86c89da2b7c00852d688c5fb9bd51b41", null ],
+    [ "vec3Normalize", "lin_8h.html#aabe3b56ce02d24a6352c6dc43f80bc8d", null ],
+    [ "vec3Sub", "lin_8h.html#abd61987e5d0493da717236de1ddd896b", null ]
+];

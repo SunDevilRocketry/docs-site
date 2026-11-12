@@ -1,5 +1,28 @@
 var searchData=
 [
-  ['hal_5fpwr_5fdisablebkupaccess_0',['HAL_PWR_DisableBkUpAccess',['../emulator__error_8c.html#a1513de5f2e4b72e094fb04bab786fec8',1,'emulator_error.c']]],
-  ['hal_5fpwr_5fenablebkupaccess_1',['HAL_PWR_EnableBkUpAccess',['../emulator__error_8c.html#a3d07cef39bf294db4aed7e06e5dbf9af',1,'emulator_error.c']]]
+  ['fc_5farm_5ftime_0',['fc_arm_time',['../emulator__flightpath_8c.html#abbc3c6ef539be3f6b70ec709aa3bc782',1,'emulator_flightpath.c']]],
+  ['fc_5fserial_5fport_1',['FC_SERIAL_PORT',['../emulator_8h.html#a5b955f874b7dfc58500cfd0011583969afa3e27f81d423beaa897ca4472bf3735',1,'emulator.h']]],
+  ['fifo_2',['fifo',['../structEMULATOR__LORA__STATE.html#ac406332d3968fe25b135dbdebd90b9af',1,'EMULATOR_LORA_STATE']]],
+  ['fifo_5flen_3',['fifo_len',['../structEMULATOR__LORA__STATE.html#a63131025605fcb21363fb1363dc36a96',1,'EMULATOR_LORA_STATE']]],
+  ['fifo_5fspi_5fpointer_4',['fifo_spi_pointer',['../structEMULATOR__LORA__STATE.html#a512ace72842c78486f4c99560952a9b1',1,'EMULATOR_LORA_STATE']]],
+  ['fifo_5ftx_5fbase_5faddr_5',['fifo_tx_base_addr',['../structEMULATOR__LORA__STATE.html#ad1da806ccee15954621e4b94bebe5ea8',1,'EMULATOR_LORA_STATE']]],
+  ['file_5fname_5fformat_5fstr_6',['FILE_NAME_FORMAT_STR',['../loadOBJ_8c.html#a5e6588b5a3535e0775aaad4d147c23f5',1,'loadOBJ.c']]],
+  ['file_5fname_5fscan_5flimit_7',['FILE_NAME_SCAN_LIMIT',['../loadOBJ_8c.html#a5eecdd22eac5ee412fa720c16da951e7',1,'loadOBJ.c']]],
+  ['file_5fname_5fsize_8',['FILE_NAME_SIZE',['../loadOBJ_8c.html#aa7a7fd4622267bc1b90eca7fbf99c7dd',1,'loadOBJ.c']]],
+  ['file_5fread_5fbuffer_9',['file_read_buffer',['../emulator__flightpath_8c.html#af6eae153412a875136431ca6bdd2edc8',1,'emulator_flightpath.c']]],
+  ['firmware_5fthread_10',['firmware_thread',['../emulator_8c.html#a503f1e67579b1fa244e4409a207fee12',1,'emulator.c']]],
+  ['flash_5ffilename_11',['FLASH_FILENAME',['../emulator__spi_8c.html#a249b06e3fd7fc63a9295d589e061d6e2',1,'emulator_spi.c']]],
+  ['flash_5ffilesize_12',['FLASH_FILESIZE',['../emulator__spi_8c.html#a444b281d3b04701aa17897906136e2b0',1,'emulator_spi.c']]],
+  ['flash_5flocal_5ffilename_13',['FLASH_LOCAL_FILENAME',['../emulator__spi_8c.html#a5cf041a4a32cd269eb5389e3633824a6',1,'emulator_spi.c']]],
+  ['flash_5fmemory_14',['flash_memory',['../emulator__spi_8c.html#abcea7ae96d88b5d4b1d56900d359b781',1,'emulator_spi.c']]],
+  ['flash_5fspi_5fdelay_15',['flash_spi_delay',['../emulator__spi_8c.html#a943741c9454ab1fe0648773c532b425e',1,'emulator_spi.c']]],
+  ['flash_5fspi_5finit_16',['FLASH_SPI_Init',['../emulator__init_8c.html#a16f3d1f43b084acc2f388359e123c5d5',1,'emulator_init.c']]],
+  ['flash_5fspi_5freceive_17',['flash_spi_receive',['../emulator__spi_8c.html#ac90ea90cc5f0518710d5b4982e387b18',1,'emulator_spi.c']]],
+  ['flash_5fspi_5ftransmit_18',['flash_spi_transmit',['../emulator__spi_8c.html#a4d63572c92b56b66013e97831be24fd8',1,'emulator_spi.c']]],
+  ['flash_5ftmpfilename_19',['FLASH_TMPFILENAME',['../emulator__spi_8c.html#adcedf69b35a9ce1e46b97a75d0ebf8fc',1,'emulator_spi.c']]],
+  ['flightpath_5fcsv_20',['flightpath_csv',['../emulator__flightpath_8c.html#a78f3362ce23ac829d8201d0b172134f7',1,'emulator_flightpath.c']]],
+  ['flightpath_5frunning_21',['flightpath_running',['../emulator__flightpath_8c.html#a8b62cff818d1266f3acee1d044f334c5',1,'emulator_flightpath.c']]],
+  ['flightpath_5fstart_5fif_5fenabled_22',['flightpath_start_if_enabled',['../emulator_8h.html#a466228802375ea99980a34f900066d5a',1,'emulator.h']]],
+  ['floats_5fper_5fline_23',['FLOATS_PER_LINE',['../emulator__flightpath_8c.html#a05d3567bfb76854c7fb202ed9fba355b',1,'emulator_flightpath.c']]],
+  ['framebuffer_5fsize_5fcallback_24',['framebuffer_size_callback',['../emulator__gui_8c.html#ad93fffd8512961d3c6e7fc0bf9cec3e1',1,'emulator_gui.c']]]
 ];

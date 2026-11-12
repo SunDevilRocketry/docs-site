@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['notitle_0',['notitle',['../index.html',1,'']]]
+  ['description_0',['Project Description',['../index.html#proj_desc',1,'']]]
 ];
